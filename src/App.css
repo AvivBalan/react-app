@@ -1,3 +1,8 @@
+.App-body {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
 .App-details {
   float: left;
   text-align: left;
@@ -5,5 +10,14 @@
 
 .App-image {
   float: right;
-  align-items: right
+  align-items: right;
+}
+
+.App-Sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
