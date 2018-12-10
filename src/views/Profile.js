@@ -27,15 +27,15 @@ class Profile extends Component {
       <div className="animated fadeIn">
       <Container>
         <Row>
-        <Col sm="6" md="10">
-          <h3>First name : {this.props.user.first_name}</h3>
-          <h3>Last name : {this.props.user.last_name}</h3>
-          <h3>Age : {this.props.user.age}</h3>
-          <h3>Education : {this.props.user.education}</h3>
-        </Col>
-        <Col sm="6" md="2">
-          <img src={this.props.user.image_url} className="img-avatar" alt="PlaceHolder" />
-        </Col>
+          <Col sm="6" md="10">
+            <h3>First name : {this.props.user.first_name}</h3>
+            <h3>Last name : {this.props.user.last_name}</h3>
+            <h3>Age : {this.props.user.age}</h3>
+            <h3>Education : {this.props.user.education}</h3>
+          </Col>
+          <Col sm="6" md="2">
+            <img src={this.props.user.image_url} className="img-avatar" alt="PlaceHolder" />
+          </Col>
         </Row>
       </Container>
       </div>

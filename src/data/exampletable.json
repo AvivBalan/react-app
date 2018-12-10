@@ -1,0 +1,15 @@
+{
+    "columnsDefinitions":[
+      {"prop_name":"username", "prop_title":"Username"},
+      {"prop_name":"reg_date", "prop_title":"Date registered"},
+      {"prop_name":"role", "prop_title":"Role"},
+      {"prop_name":"fav_color", "prop_title":"Favorite color"}
+    ],
+    "rowsData":[
+      {"username":"Samppa Nori", "reg_date":"2012/01/01", "role":"Member", "fav_color":"Blue"},
+      {"username":"Estavan Lykos", "reg_date":"2012/02/01", "role":"Staff", "fav_color":"Blue"},
+      {"username":"Chetan Mohamed", "reg_date":"2012/02/01", "role":"Admin", "fav_color":"No"},
+      {"username":"Derick Maximinus", "reg_date":"2012/03/01", "role":"Member", "fav_color":"Yellow"},
+      {"username":"Friderik Dávid", "reg_date":"2012/01/21", "role":"Staff", "fav_color":"Aaargh"}
+    ]
+  }

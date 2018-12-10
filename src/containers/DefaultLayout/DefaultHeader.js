@@ -29,7 +29,7 @@ class DefaultHeader extends Component {
               <Link to="/profile" style={{ textDecoration: 'none' }} >
                 <DropdownItem><i className="fa fa-user"></i>Profile</DropdownItem>
               </Link>
-              <DropdownItem ><i className="fa fa-lock"></i>Logout</DropdownItem>
+              <DropdownItem onClick={e => this.props.onLogout(e)} ><i className="fa fa-lock"></i>Logout</DropdownItem>
             </DropdownMenu>
           </AppHeaderDropdown>
         </Nav>
